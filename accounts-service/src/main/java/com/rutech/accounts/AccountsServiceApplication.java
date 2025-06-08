@@ -1,4 +1,4 @@
-package com.ruzlabz.accounts;
+package com.rutech.accounts;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

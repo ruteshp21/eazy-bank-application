@@ -1,5 +1,6 @@
-package com.ruzlabz.accounts.entity;
+package com.rutech.accounts.entity;
 
+import com.rutech.accounts.etypes.AccountType;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -12,7 +13,6 @@ import lombok.*;
 public class Accounts extends BaseEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "account_number")
     private Long accountNumber;
 
@@ -20,7 +20,7 @@ public class Accounts extends BaseEntity {
     private Long customerId;
 
     @Column(name = "account_type")
-    private String accountType;
+    private AccountType accountType;
 
     @Column(name = "branch_address")
     private String branchAddress;

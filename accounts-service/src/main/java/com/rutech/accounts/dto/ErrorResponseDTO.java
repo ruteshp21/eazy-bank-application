@@ -1,4 +1,4 @@
-package com.ruzlabz.accounts.dto;
+package com.rutech.accounts.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

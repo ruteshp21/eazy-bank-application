@@ -1,4 +1,4 @@
-package com.ruzlabz.accounts;
+package com.rutech.accounts;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

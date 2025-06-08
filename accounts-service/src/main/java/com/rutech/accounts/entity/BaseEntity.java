@@ -1,4 +1,4 @@
-package com.ruzlabz.accounts.entity;
+package com.rutech.accounts.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.MappedSuperclass;
